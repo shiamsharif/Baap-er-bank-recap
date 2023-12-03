@@ -13,6 +13,7 @@
         </h1>
     </header>
     <main>
+        <!-- Deposti, Withdraw and Balance section -->
         <section class="mt-8">
             <div class="grid grid-cols-3 gap-4 w-3/4 mx-auto">
                 <div class="bg-yellow-400 p-8 rounded-lg">
@@ -35,16 +36,20 @@
             <div class="grid grid-cols-2 gap-4 w-3/4 mx-auto mt-5">
                 <div class="bg-violet-400 p-8 rounded-lg">
                     <h4 class="text-4xl">Deposit Here</h4>
-                    <input type="text" class="rounded-md mt-1" id="" placeholder=" $ deposit Amount">
-                    <button id="btn-deposit" class="bg-green-500 py-1 px-5 rounded-lg mt-3 hover:opacity-80 eaes-in duration-200"> Deposit</button>
+                    <input id="deposit-field" type="text" class="rounded-md mt-1" placeholder=" $ deposit Amount">
+                    <button id="btn-deposit" class="bg-green-500 py-1 px-5 rounded-lg mt-3 hover:bg-red-400 eaes-in duration-200">Deposit</button>
                 </div>
                 <div class="bg-violet-400 p-8 rounded-lg">
                     <h4 class="text-4xl">Withdraw Here</h4>
-                    <input type="text" class="rounded-md mt-1" id="" placeholder=" $ deposit Amount">
-                    <button id="btn-withdraw" class="bg-green-500 py-1 px-5 rounded-lg mt-3 hover:opacity-80 eaes-in duration-200"> Deposit</button>
+                    <input id="withdraw-field"  type="text" class="rounded-md mt-1" placeholder=" $ Withdraw Amount">
+                    <button id="btn-withdraw" class="bg-green-500 py-1 px-5 rounded-lg mt-3 hover:bg-red-400 eaes-in duration-300 ">Withdraw</button>
                 </div>
             </div>
         </section>
     </main>
+
+
+    <!-- js tag -->
+    <script src="js/deposit.js"></script>
 </body>
 </html>
