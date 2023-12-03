@@ -43,5 +43,6 @@ document.getElementById('btn-deposit').addEventListener('click', function(){
     balanceTotalElement.innerText = newBalanceTotal;
 
 
+
     console.log( newDepositAmount);
 } )
