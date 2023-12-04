@@ -21,6 +21,5 @@ document.getElementById('btn-withdraw').addEventListener('click', function(){
     const newBalanceTotal = balanceTotalAmount - newWithdrawAmount;
     balanceTotalElement.innerText = newBalanceTotal;
 
-    console.log(withdrawFieldAmoun);
 
 })
